@@ -1,0 +1,11 @@
+name: ApartmentPlugin
+version: 1.0
+main: your.package.path.ApartmentPlugin
+commands:
+  createApartment:
+    description: Creates an apartment with a specified price.
+    usage: /<command> <regionId> <price>
+permissions:
+  apartment.create:
+    description: Allows the creation of apartments.
+    default: op
